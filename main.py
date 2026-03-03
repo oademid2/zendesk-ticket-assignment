@@ -12,6 +12,11 @@ ZENDESK_API_TOKEN = os.getenv("ZENDESK_API_TOKEN")
 def health_check():
     return {"status": "running"}
 
+@app.post("/")
+async def create_webhook(request: Request):
+    data = await request.json()
+    return {"received": data, "status": "processed"}
+
 @app.post("/webhook")
 async def webhook(request: Request):
     data = await request.json()
