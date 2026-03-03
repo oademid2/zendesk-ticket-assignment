@@ -12,8 +12,18 @@ from typing import Dict, List, Any
 # Load environment variables
 load_dotenv()
 
-# Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Initialize OpenAI client lazily
+_client = None
+
+def get_openai_client():
+    """Get or create OpenAI client instance."""
+    global _client
+    if _client is None:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY environment variable is not set")
+        _client = OpenAI(api_key=api_key)
+    return _client
 
 
 def load_tickets(ticket_file: str = "ticket_data.json") -> List[Dict[str, Any]]:
@@ -139,6 +149,9 @@ Respond in JSON format with:
 """
     
     try:
+        # Get OpenAI client
+        client = get_openai_client()
+        
         # Call OpenAI API
         response = client.chat.completions.create(
             model=model,
