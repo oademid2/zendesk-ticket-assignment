@@ -11,6 +11,10 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
+# Development mode flag - set to False in production
+DEV_MODE = True
+DEV_ASSIGNEE_ID = 47307721291035
+
 ZENDESK_DOMAIN = os.getenv("ZENDESK_DOMAIN")
 ZENDESK_EMAIL = os.getenv("ZENDESK_EMAIL")
 ZENDESK_API_TOKEN = os.getenv("ZENDESK_API_TOKEN")
@@ -90,17 +94,25 @@ async def webhook(request: Request):
         "description": description
     }
     
-    # Use AI to determine best assignee
-    assignment_result = assign_ticket_with_details(new_ticket)
+    # Determine assignee based on mode
+    if DEV_MODE:
+        logger.info(f"DEV MODE: Using hardcoded assignee ID {DEV_ASSIGNEE_ID}")
+        assignee_id = DEV_ASSIGNEE_ID
+        assignment_result = {
+            "assignee_id": assignee_id,
+            "confidence": 1.0,
+            "reasoning": "Development mode - using hardcoded assignee"
+        }
+    else:
+        # Use AI to determine best assignee
+        assignment_result = assign_ticket_with_details(new_ticket)
+        assignee_id = assignment_result.get("assignee_id")
     
     # Log full assignment result
     logger.info(f"AI Assignment Result for ticket {ticket_id}:")
     logger.info(f"  - Assignee ID: {assignment_result.get('assignee_id')}")
     logger.info(f"  - Confidence: {assignment_result.get('confidence')}")
     logger.info(f"  - Reasoning: {assignment_result.get('reasoning')}")
-    
-    # Extract assignee_id
-    assignee_id = assignment_result.get("assignee_id")
     
     if not assignee_id:
         logger.warning(f"No assignee determined for ticket {ticket_id}")
