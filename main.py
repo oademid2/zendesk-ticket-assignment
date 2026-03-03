@@ -33,23 +33,54 @@ async def webhook(request: Request):
     data = await request.json()
     logger.info(f"Received webhook data: {data}")
 
-    # Extract ticket ID from webhook data
-    ticket_id = data.get("ticket_id") or data.get("id")
+    # Try to extract ticket ID from different possible locations
+    ticket_id = None
+    subject = None
+    description = None
+    
+    # Strategy 1: Try direct fields from data (ticket_data.json structure)
+    if "id" in data and isinstance(data.get("id"), int):
+        ticket_id = data["id"]
+        subject = data.get("subject")
+        description = data.get("description")
+        logger.info(f"Extracted from ticket_data structure - ID: {ticket_id}")
+    
+    # Strategy 2: Try webhook event structure (zen:event-type format)
+    elif "detail" in data:
+        detail = data.get("detail", {})
+        ticket_id = detail.get("id")
+        if ticket_id:
+            # Try to convert to int if it's a string
+            try:
+                ticket_id = int(ticket_id)
+            except (ValueError, TypeError):
+                pass
+        subject = detail.get("subject")
+        description = detail.get("description")
+        logger.info(f"Extracted from webhook detail structure - ID: {ticket_id}")
+    
+    # Strategy 3: Try other common webhook formats
+    elif "ticket_id" in data:
+        ticket_id = data.get("ticket_id")
+        subject = data.get("subject")
+        description = data.get("description")
+        logger.info(f"Extracted from ticket_id field - ID: {ticket_id}")
     
     if not ticket_id:
         logger.error("No ticket_id found in webhook data")
         return {"success": False, "error": "No ticket_id provided"}
 
-    # Get full ticket details from Zendesk
-    ticket_details = get_ticket_details(ticket_id)
-    
-    if not ticket_details:
-        logger.error(f"Could not fetch details for ticket {ticket_id}")
-        return {"success": False, "error": "Could not fetch ticket details"}
-    
-    # Extract subject and description
-    subject = ticket_details.get("subject", "")
-    description = ticket_details.get("description", "")
+    # If we don't have subject and description yet, fetch from Zendesk API
+    if not subject or not description:
+        logger.info(f"Subject or description missing, fetching from Zendesk API for ticket {ticket_id}")
+        ticket_details = get_ticket_details(ticket_id)
+        
+        if not ticket_details:
+            logger.error(f"Could not fetch details for ticket {ticket_id}")
+            return {"success": False, "error": "Could not fetch ticket details"}
+        
+        subject = ticket_details.get("subject", "")
+        description = ticket_details.get("description", "")
     
     logger.info(f"Processing ticket {ticket_id}: {subject}")
     
