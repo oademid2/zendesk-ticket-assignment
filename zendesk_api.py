@@ -57,7 +57,7 @@ def assign_ticket_on_zendesk(ticket_id: int, assignee_id: int) -> Dict[str, Any]
             "error": "Missing Zendesk configuration"
         }
     
-    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}.json"
+    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}"
     auth = HTTPBasicAuth(f"{config['email']}/token", config['api_token'])
     
     headers = {
@@ -105,7 +105,7 @@ def get_ticket_details(ticket_id: int) -> Optional[Dict[str, Any]]:
     if not all([config['domain'], config['email'], config['api_token']]):
         return None
     
-    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}.json"
+    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}"
     auth = HTTPBasicAuth(f"{config['email']}/token", config['api_token'])
     
     headers = {
