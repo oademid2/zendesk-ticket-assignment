@@ -15,10 +15,20 @@ load_dotenv()
 
 def get_zendesk_config():
     """Get Zendesk configuration from environment variables."""
+    domain = os.getenv("ZENDESK_DOMAIN")
+    email = os.getenv("ZENDESK_EMAIL")
+    api_token = os.getenv("ZENDESK_API_TOKEN")
+    
+    # Debug logging
+    print(f"DEBUG - Zendesk Config:")
+    print(f"  Domain: {domain}")
+    print(f"  Email: {email}")
+    print(f"  API Token: {api_token[:10] + '...' if api_token else None}")
+    
     return {
-        'domain': os.getenv("ZENDESK_DOMAIN"),
-        'email': os.getenv("ZENDESK_EMAIL"),
-        'api_token': os.getenv("ZENDESK_API_TOKEN")
+        'domain': domain,
+        'email': email,
+        'api_token': api_token
     }
 
 
