@@ -1,6 +1,13 @@
 from fastapi import FastAPI, Request
 import os
 import requests
+import logging
+from ticket_assignment import assign_ticket_with_details
+from zendesk_api import assign_ticket_on_zendesk, get_ticket_details
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -12,29 +19,75 @@ ZENDESK_API_TOKEN = os.getenv("ZENDESK_API_TOKEN")
 def health_check():
     return {"status": "running"}
 
+# @app.post("/")
+# async def create_webhook(request: Request):
+#     data = await request.json()
+#     return {"received": data, "status": "processed"}
+
 @app.post("/")
-async def create_webhook(request: Request):
-    data = await request.json()
-    return {"received": data, "status": "processed"}
-
-@app.post("/webhook")
 async def webhook(request: Request):
+    """
+    Webhook endpoint for Zendesk ticket events.
+    Extracts ticket info, uses AI to determine best assignee, and assigns the ticket.
+    """
     data = await request.json()
-    print("Received webhook:", data)
+    logger.info(f"Received webhook data: {data}")
 
-    # Example: extract ticket ID
-    ticket_id = data.get("ticket_id")
+    # Extract ticket ID from webhook data
+    ticket_id = data.get("ticket_id") or data.get("id")
+    
+    if not ticket_id:
+        logger.error("No ticket_id found in webhook data")
+        return {"success": False, "error": "No ticket_id provided"}
 
-    # Example assignment logic placeholder
-    # (Replace with your real logic)
-    if ticket_id:
-        url = f"https://{ZENDESK_DOMAIN}/api/v2/tickets/{ticket_id}.json"
-        auth = (f"{ZENDESK_EMAIL}/token", ZENDESK_API_TOKEN)
-
-        requests.put(
-            url,
-            json={"ticket": {"assignee_id": 123456789}},
-            auth=auth
-        )
-
-    return {"success": True}
+    # Get full ticket details from Zendesk
+    ticket_details = get_ticket_details(ticket_id)
+    
+    if not ticket_details:
+        logger.error(f"Could not fetch details for ticket {ticket_id}")
+        return {"success": False, "error": "Could not fetch ticket details"}
+    
+    # Extract subject and description
+    subject = ticket_details.get("subject", "")
+    description = ticket_details.get("description", "")
+    
+    logger.info(f"Processing ticket {ticket_id}: {subject}")
+    
+    # Prepare ticket for AI assignment
+    new_ticket = {
+        "subject": subject,
+        "description": description
+    }
+    
+    # Use AI to determine best assignee
+    assignment_result = assign_ticket_with_details(new_ticket)
+    
+    # Log full assignment result
+    logger.info(f"AI Assignment Result for ticket {ticket_id}:")
+    logger.info(f"  - Assignee ID: {assignment_result.get('assignee_id')}")
+    logger.info(f"  - Confidence: {assignment_result.get('confidence')}")
+    logger.info(f"  - Reasoning: {assignment_result.get('reasoning')}")
+    
+    # Extract assignee_id
+    assignee_id = assignment_result.get("assignee_id")
+    
+    if not assignee_id:
+        logger.warning(f"No assignee determined for ticket {ticket_id}")
+        return {
+            "success": False,
+            "ticket_id": ticket_id,
+            "error": "Could not determine assignee",
+            "assignment_result": assignment_result
+        }
+    
+    # Assign ticket on Zendesk
+    zendesk_result = assign_ticket_on_zendesk(ticket_id, assignee_id)
+    
+    logger.info(f"Zendesk assignment result: {zendesk_result}")
+    
+    return {
+        "success": zendesk_result.get("success"),
+        "ticket_id": ticket_id,
+        "assignment_result": assignment_result,
+        "zendesk_result": zendesk_result
+    }

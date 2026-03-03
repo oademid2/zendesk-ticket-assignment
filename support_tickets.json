@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Mortgage Pre-Approval Transaction Discrepancy",
+    "body": "Hello Wealthsimple Support,\n\nI noticed a discrepancy in my mortgage pre-approval account. The transaction dated January 15th shows a processing fee of $450, but I was quoted $350 during my initial consultation. Could you please review this transaction and provide clarification on the difference?\n\nThank you,\nCustomer"
+  },
+  {
+    "subject": "Missing Mortgage Payment Record",
+    "body": "Hi Wealthsimple Team,\n\nI made my monthly mortgage payment on February 1st for $2,150, but it's not showing up in my transaction history. My bank confirms the payment was withdrawn, but your platform shows it as pending. Can you help me verify the accuracy of this transaction?\n\nBest regards,\nCustomer"
+  },
+  {
+    "subject": "Incorrect Mortgage Interest Calculation",
+    "body": "Dear Wealthsimple Support,\n\nI've been reviewing my mortgage statements and noticed the interest charged this month seems higher than expected based on my 3.5% rate. The transaction shows $312 in interest, but my calculations suggest it should be around $275. Could you please verify the accuracy of this calculation?\n\nThank you,\nCustomer"
+  },
+  {
+    "subject": "Unable to Access Mortgage Account Dashboard",
+    "body": "Hello,\n\nI've been trying to log into my Wealthsimple mortgage account for the past two days but keep getting an 'authentication failed' error. I've reset my password twice, but the issue persists. I need to review my mortgage documents urgently. Can you please help me regain access?\n\nRegards,\nCustomer"
+  },
+  {
+    "subject": "Two-Factor Authentication Not Working for Mortgage Portal",
+    "body": "Hi Wealthsimple Team,\n\nI'm having trouble with two-factor authentication on my mortgage account. I'm not receiving the verification codes via SMS, and when I try to use the authenticator app, it says the code is invalid. I need to make a payment today. Please assist with authentication issues.\n\nThank you,\nCustomer"
+  },
+  {
+    "subject": "Mortgage Account Login Locked After Failed Attempts",
+    "body": "Dear Support,\n\nMy mortgage account has been locked after several failed login attempts. I may have entered the wrong password, but now I can't access the password reset option. I need to access my account to download my mortgage statement for my accountant. Please help unlock my account.\n\nBest,\nCustomer"
+  },
+  {
+    "subject": "TFSA Over-Contribution Concern - Need Clarification",
+    "body": "Hello Wealthsimple,\n\nI'm worried I may have over-contributed to my TFSA this year. I contributed $6,500 in January but recently learned I had unused contribution room from previous years. Can you help me understand my exact contribution limit and whether I've exceeded it? I want to avoid CRA penalties.\n\nThank you,\nCustomer"
+  },
+  {
+    "subject": "TFSA Withdrawal Tax Implications Question",
+    "body": "Hi Wealthsimple Team,\n\nI withdrew $8,000 from my TFSA last month for an emergency. Will this withdrawal be taxed? Also, when can I re-contribute this amount without it counting against my annual limit? I want to make sure I'm following the tax rules correctly.\n\nRegards,\nCustomer"
+  },
+  {
+    "subject": "TFSA Contribution Room After Moving from US",
+    "body": "Dear Support,\n\nI recently moved back to Canada after working in the US for 5 years. I'm confused about my TFSA contribution room. Do the years I was a non-resident count toward my contribution limit? I want to maximize my contributions while staying compliant with tax rules.\n\nThank you,\nCustomer"
+  },
+  {
+    "subject": "TFSA Transfer Between Institutions - Tax Rules",
+    "body": "Hello,\n\nI'm planning to transfer my TFSA from another institution to Wealthsimple. Will this count as a withdrawal and re-contribution for tax purposes? I don't want to accidentally trigger an over-contribution penalty. Could you clarify the proper process to transfer without affecting my contribution room?\n\nBest regards,\nCustomer"
+  }
+]

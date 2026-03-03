@@ -1,0 +1,2576 @@
+[
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/1.json",
+    "id": 1,
+    "external_id": null,
+    "via": {
+      "channel": "sample_ticket",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T00:08:08Z",
+    "updated_at": "2026-03-03T00:08:08Z",
+    "generated_timestamp": 1772496488,
+    "type": null,
+    "subject": "SAMPLE: How does Zendesk work",
+    "raw_subject": "SAMPLE: How does Zendesk work",
+    "description": "Hello, let's see how you or your agents can easily respond to and solve tickets.\n\nFeel free to email additional customer test inquiries to **support@self-37540.zendesk.com**.\n\nBut first, let's start by solving one ticket.\n\nYour Zendesk Team",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 47307805432091,
+    "submitter_id": 47307805432091,
+    "assignee_id": 47307721291035,
+    "organization_id": null,
+    "group_id": 47307721895195,
+    "collaborator_ids": [
+      47307721291035
+    ],
+    "follower_ids": [],
+    "email_cc_ids": [
+      47307721291035
+    ],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "zendesk_accelerated_setup"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "21ZP4W-JYNWV",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/4.json",
+    "id": 4,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T02:47:58Z",
+    "updated_at": "2026-03-03T02:54:21Z",
+    "generated_timestamp": 1772506461,
+    "type": null,
+    "subject": "Test Email from Jupyter Notebook",
+    "raw_subject": "Test Email from Jupyter Notebook",
+    "description": "This is an automated email sent from a Jupyter notebook. Testing email functionality.",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__misc__unsolicited__spam",
+      "intent_confidence__medium",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__misc__unsolicited__spam"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "Z4LP02-Z5V1P",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__misc__unsolicited__spam"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/5.json",
+    "id": 5,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T02:52:58Z",
+    "updated_at": "2026-03-03T03:57:58Z",
+    "generated_timestamp": 1772510278,
+    "type": null,
+    "subject": "Update on mortgage application",
+    "raw_subject": "Update on mortgage application",
+    "description": "Hello,\n\nI applied for a mortgage through your platform last week and uploaded all required documents. I haven\u2019t received any updates since then and wanted to check on the status of my application.\n\nPlease let me know if you need any additional information from me.\n\nKind regards,\nEmily S.",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__account__activation__waiting",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__account__activation__waiting"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "21Z97W-ZMDKR",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__account__activation__waiting"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/6.json",
+    "id": 6,
+    "external_id": null,
+    "via": {
+      "channel": "sample_ticket",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:01:25Z",
+    "updated_at": "2026-03-03T03:01:35Z",
+    "generated_timestamp": 1772506895,
+    "type": null,
+    "subject": "SAMPLE TICKET: International shipping",
+    "raw_subject": "SAMPLE TICKET: International shipping",
+    "description": "Hello, I would like to buy one of your products and send it to my friend in Portugal. Do you ship overseas? How much would it cost?",
+    "priority": "normal",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 47312373746715,
+    "submitter_id": 47312373746715,
+    "assignee_id": 47312255761307,
+    "organization_id": null,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "delivery",
+      "sample_ticket"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "21Z94K-62KKR",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/7.json",
+    "id": 7,
+    "external_id": null,
+    "via": {
+      "channel": "sample_ticket",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:01:26Z",
+    "updated_at": "2026-03-03T03:01:49Z",
+    "generated_timestamp": 1772506909,
+    "type": null,
+    "subject": "SAMPLE TICKET: Wrong address",
+    "raw_subject": "SAMPLE TICKET: Wrong address",
+    "description": "Hi there, I just purchased an item and realized I used the wrong delivery address. Is it too late to update the delivery address? Is there a way I can make the change myself?",
+    "priority": "urgent",
+    "status": "open",
+    "recipient": null,
+    "requester_id": 47312357758363,
+    "submitter_id": 47312357758363,
+    "assignee_id": 47312255761307,
+    "organization_id": null,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "delivery",
+      "sample_ticket"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "05L0ZE-42VX0",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/8.json",
+    "id": 8,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:06Z",
+    "generated_timestamp": 1772510586,
+    "type": null,
+    "subject": "Mortgage Pre-Approval Transaction Discrepancy",
+    "raw_subject": "Mortgage Pre-Approval Transaction Discrepancy",
+    "description": "Hello Wealthsimple Support,\n\nI noticed a discrepancy in my mortgage pre-approval account. The transaction dated January 15th shows a processing fee of $450, but I was quoted $350 during my initial consultation. Could you please review this transaction and provide clarification on the difference?\n\nThank you,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__billing__wrong__why_charged",
+      "intent_confidence__high",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__wrong__why_charged"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "21Z991-LL4WV",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__wrong__why_charged"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/9.json",
+    "id": 9,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:06Z",
+    "generated_timestamp": 1772510586,
+    "type": null,
+    "subject": "Unable to Access Mortgage Account Dashboard",
+    "raw_subject": "Unable to Access Mortgage Account Dashboard",
+    "description": "Hello,\n\nI've been trying to log into my Wealthsimple mortgage account for the past two days but keep getting an 'authentication failed' error. I've reset my password twice, but the issue persists. I need to review my mortgage documents urgently. Can you please help me regain access?\n\nRegards,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__software__login_issues__cant_login",
+      "intent_confidence__high",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__negative",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__login_issues__cant_login"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__negative"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "05L002-XR1DK",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__login_issues__cant_login"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__negative"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/10.json",
+    "id": 10,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:06Z",
+    "generated_timestamp": 1772510586,
+    "type": null,
+    "subject": "Missing Mortgage Payment Record",
+    "raw_subject": "Missing Mortgage Payment Record",
+    "description": "Hi Wealthsimple Team,\n\nI made my monthly mortgage payment on February 1st for $2,150, but it's not showing up in my transaction history. My bank confirms the payment was withdrawn, but your platform shows it as pending. Can you help me verify the accuracy of this transaction?\n\nBest regards,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__billing__payment_info__request_confirmation",
+      "intent_confidence__high",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__payment_info__request_confirmation"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "Z4LPP0-1M2DW",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__payment_info__request_confirmation"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__high"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/11.json",
+    "id": 11,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:05Z",
+    "generated_timestamp": 1772510586,
+    "type": null,
+    "subject": "Incorrect Mortgage Interest Calculation",
+    "raw_subject": "Incorrect Mortgage Interest Calculation",
+    "description": "Dear Wealthsimple Support,\n\nI've been reviewing my mortgage statements and noticed the interest charged this month seems higher than expected based on my 3.5% rate. The transaction shows $312 in interest, but my calculations suggest it should be around $275. Could you please verify the accuracy of this calculation?\n\nThank you,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__billing__price_clarification__which_price",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__price_clarification__which_price"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "Z4LPP0-VXWGW",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__price_clarification__which_price"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/12.json",
+    "id": 12,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:06Z",
+    "generated_timestamp": 1772510586,
+    "type": null,
+    "subject": "Mortgage Account Login Locked After Failed Attempts",
+    "raw_subject": "Mortgage Account Login Locked After Failed Attempts",
+    "description": "Dear Support,\n\nMy mortgage account has been locked after several failed login attempts. I may have entered the wrong password, but now I can't access the password reset option. I need to access my account to download my mortgage statement for my accountant. Please help unlock my account.\n\nBest,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__software__login_issues__cant_login",
+      "intent_confidence__medium",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__negative",
+      "sentiment_confidence__medium"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__login_issues__cant_login"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__negative"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__medium"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "05L005-R6NDK",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__login_issues__cant_login"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__negative"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__medium"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/13.json",
+    "id": 13,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:52:59Z",
+    "updated_at": "2026-03-03T04:03:05Z",
+    "generated_timestamp": 1772510585,
+    "type": null,
+    "subject": "Two-Factor Authentication Not Working for Mortgage Portal",
+    "raw_subject": "Two-Factor Authentication Not Working for Mortgage Portal",
+    "description": "Hi Wealthsimple Team,\n\nI'm having trouble with two-factor authentication on my mortgage account. I'm not receiving the verification codes via SMS, and when I try to use the authenticator app, it says the code is invalid. I need to make a payment today. Please assist with authentication issues.\n\nThank you,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47307721291035,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "Z4LPP0-VDDPP",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": null
+      },
+      {
+        "id": 47307774448795,
+        "value": null
+      },
+      {
+        "id": 47307774484251,
+        "value": null
+      },
+      {
+        "id": 47307774488219,
+        "value": null
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": null
+      },
+      {
+        "id": 47307785589531,
+        "value": null
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/14.json",
+    "id": 14,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:53:58Z",
+    "updated_at": "2026-03-03T04:02:32Z",
+    "generated_timestamp": 1772510552,
+    "type": null,
+    "subject": "TFSA Over-Contribution Concern - Need Clarification",
+    "raw_subject": "TFSA Over-Contribution Concern - Need Clarification",
+    "description": "Hello Wealthsimple,\n\nI'm worried I may have over-contributed to my TFSA this year. I contributed $6,500 in January but recently learned I had unused contribution room from previous years. Can you help me understand my exact contribution limit and whether I've exceeded it? I want to avoid CRA penalties.\n\nThank you,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47312255761307,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__billing__wrong__why_charged",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__medium"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__wrong__why_charged"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__medium"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "05L00Z-PPM5K",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__wrong__why_charged"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__medium"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/15.json",
+    "id": 15,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:53:58Z",
+    "updated_at": "2026-03-03T04:02:31Z",
+    "generated_timestamp": 1772510551,
+    "type": null,
+    "subject": "TFSA Withdrawal Tax Implications Question",
+    "raw_subject": "TFSA Withdrawal Tax Implications Question",
+    "description": "Hi Wealthsimple Team,\n\nI withdrew $8,000 from my TFSA last month for an emergency. Will this withdrawal be taxed? Also, when can I re-contribute this amount without it counting against my annual limit? I want to make sure I'm following the tax rules correctly.\n\nRegards,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47312255761307,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__software__info__how_to_use",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "MW9VV2-55KJ4",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/16.json",
+    "id": 16,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:53:58Z",
+    "updated_at": "2026-03-03T04:02:31Z",
+    "generated_timestamp": 1772510551,
+    "type": null,
+    "subject": "TFSA Transfer Between Institutions - Tax Rules",
+    "raw_subject": "TFSA Transfer Between Institutions - Tax Rules",
+    "description": "Hello,\n\nI'm planning to transfer my TFSA from another institution to Wealthsimple. Will this count as a withdrawal and re-contribution for tax purposes? I don't want to accidentally trigger an over-contribution penalty. Could you clarify the proper process to transfer without affecting my contribution room?\n\nBest regards,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47312255761307,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__software__info__how_to_use",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "Z4LPPN-VV4GW",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/17.json",
+    "id": 17,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "kitademidun@gmail.com",
+          "name": "Kitademidun"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:53:59Z",
+    "updated_at": "2026-03-03T04:02:31Z",
+    "generated_timestamp": 1772510551,
+    "type": null,
+    "subject": "TFSA Contribution Room After Moving from US",
+    "raw_subject": "TFSA Contribution Room After Moving from US",
+    "description": "Dear Support,\n\nI recently moved back to Canada after working in the US for 5 years. I'm confused about my TFSA contribution room. Do the years I was a non-resident count toward my contribution limit? I want to maximize my contributions while staying compliant with tax rules.\n\nThank you,\nCustomer",
+    "priority": "normal",
+    "status": "open",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47312130964891,
+    "submitter_id": 47312130964891,
+    "assignee_id": 47312255761307,
+    "organization_id": 47312201461659,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__software__info__how_to_use",
+      "intent_confidence__low",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307783222299,
+    "encoded_id": "MW9VV2-50MKV",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__software__info__how_to_use"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__low"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  },
+  {
+    "url": "https://self-37540.zendesk.com/api/v2/tickets/18.json",
+    "id": 18,
+    "external_id": null,
+    "via": {
+      "channel": "email",
+      "source": {
+        "from": {
+          "address": "billing@railway.com",
+          "name": "Railway Corporation"
+        },
+        "to": {
+          "name": "self",
+          "address": "kademidun@hotmail.com"
+        },
+        "rel": null
+      }
+    },
+    "created_at": "2026-03-03T03:54:00Z",
+    "updated_at": "2026-03-03T03:54:05Z",
+    "generated_timestamp": 1772510045,
+    "type": null,
+    "subject": "Your receipt from Railway Corporation #2226-8567",
+    "raw_subject": "Your receipt from Railway Corporation #2226-8567",
+    "description": "Railway Corporation  (https://railway.com)\n\nRailway Corporation\n\nReceipt from Railway Corporation $5.00 Paid March 2, 2026 (invoice illustration [https://stripe-images.s3.amazonaws.com/emails/invoices_invoice_illustration.png]) Download invoice (https://pay.stripe.com/invoice/acct_1HNrvlCJoPsRzQsd/live_YWNjdF8xSE5ydmxDSm9Qc1J6UXNkLF9VNHRwZXJaYmRnaFlFY1VHMDVjRkV5Wm5MVUhFV0hZLDE2MzA1MDgxOQ0200kQqgwnfS/pdf?s=em) Download receipt (https://dashboard.stripe.com/receipts/invoices/CAcQARoXChVhY2N0XzFITnJ2bENKb1BzUnpRc2Qow7aZzQYyBgs2HkKKLDovFk0wLUSxLKp3Xf92xGyvS2XsUsW5LhZgxOZ8ojO1gKK_b5J2V1Ww74SP5-tOjhU/pdf?s=em) Receipt number 2226-8567 Invoice number PULLJFMB-0001 Payment method - 9122\n\nReceipt #2226-8567 Mar 2\u2013Apr 2, 2026 Hobby plan Qty 1 $5.00 Network (per MB) Qty 0 $0.00 vCPU (per vCPU / min) Qty 0 $0.00 Memory (per MB / min) Qty 0 $0.00 Hobby plan monthly included usage ($5.00 off) $0.00 Total $5.00 Amount paid $5.00 Questions? Visit our support site (https://station.railway.com/) or contact us at billing@railway.com (billing@railway.com).\n\nPowered by    stripe logo (https://stripe.com)\u00a0\u00a0|\u00a0\u00a0 Learn more about Stripe Billing (https://stripe.com/billing)\nInvoice-PULLJFMB-0001.pdf\nReceipt-2226-8567.pdf",
+    "priority": "normal",
+    "status": "new",
+    "recipient": "kademidun@hotmail.com",
+    "requester_id": 47313237766043,
+    "submitter_id": 47313237766043,
+    "assignee_id": null,
+    "organization_id": null,
+    "group_id": 47307721895195,
+    "collaborator_ids": [],
+    "follower_ids": [],
+    "email_cc_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "is_public": true,
+    "due_at": null,
+    "tags": [
+      "intent__billing__invoice__submission",
+      "intent_confidence__medium",
+      "language__en",
+      "language_confidence__high",
+      "sentiment__neutral",
+      "sentiment_confidence__high"
+    ],
+    "custom_fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__invoice__submission"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "custom_status_id": 47307721863707,
+    "encoded_id": "MW9VVV-DZ2J4",
+    "fields": [
+      {
+        "id": 47307721464091,
+        "value": null
+      },
+      {
+        "id": 47307721467547,
+        "value": null
+      },
+      {
+        "id": 47307751011995,
+        "value": null
+      },
+      {
+        "id": 47307774435099,
+        "value": "intent__billing__invoice__submission"
+      },
+      {
+        "id": 47307774448795,
+        "value": "intent_confidence__medium"
+      },
+      {
+        "id": 47307774484251,
+        "value": "language_confidence__high"
+      },
+      {
+        "id": 47307774488219,
+        "value": "sentiment__neutral"
+      },
+      {
+        "id": 47307782735899,
+        "value": null
+      },
+      {
+        "id": 47307782740635,
+        "value": null
+      },
+      {
+        "id": 47307783469083,
+        "value": null
+      },
+      {
+        "id": 47307785572507,
+        "value": "language__en"
+      },
+      {
+        "id": 47307785589531,
+        "value": "sentiment_confidence__high"
+      }
+    ],
+    "followup_ids": [],
+    "ticket_form_id": 47307721732251,
+    "brand_id": 47307783172891,
+    "allow_channelback": false,
+    "allow_attachments": true,
+    "from_messaging_channel": false,
+    "support_type": "agent"
+  }
+]
