@@ -12,9 +12,14 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-ZENDESK_DOMAIN = os.getenv("ZENDESK_DOMAIN")
-ZENDESK_EMAIL = os.getenv("ZENDESK_EMAIL")
-ZENDESK_API_TOKEN = os.getenv("ZENDESK_API_TOKEN")
+
+def get_zendesk_config():
+    """Get Zendesk configuration from environment variables."""
+    return {
+        'domain': os.getenv("ZENDESK_DOMAIN"),
+        'email': os.getenv("ZENDESK_EMAIL"),
+        'api_token': os.getenv("ZENDESK_API_TOKEN")
+    }
 
 
 def assign_ticket_on_zendesk(ticket_id: int, assignee_id: int) -> Dict[str, Any]:
@@ -32,7 +37,9 @@ def assign_ticket_on_zendesk(ticket_id: int, assignee_id: int) -> Dict[str, Any]
             - assignee_id: The employee ID assigned to
             - error: Error message if assignment failed
     """
-    if not all([ZENDESK_DOMAIN, ZENDESK_EMAIL, ZENDESK_API_TOKEN]):
+    config = get_zendesk_config()
+    
+    if not all([config['domain'], config['email'], config['api_token']]):
         return {
             "success": False,
             "ticket_id": ticket_id,
@@ -40,8 +47,8 @@ def assign_ticket_on_zendesk(ticket_id: int, assignee_id: int) -> Dict[str, Any]
             "error": "Missing Zendesk configuration"
         }
     
-    url = f"https://{ZENDESK_DOMAIN}/api/v2/tickets/{ticket_id}.json"
-    auth = HTTPBasicAuth(f"{ZENDESK_EMAIL}/token", ZENDESK_API_TOKEN)
+    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}.json"
+    auth = HTTPBasicAuth(f"{config['email']}/token", config['api_token'])
     
     headers = {
         "Content-Type": "application/json"
@@ -83,11 +90,13 @@ def get_ticket_details(ticket_id: int) -> Optional[Dict[str, Any]]:
     Returns:
         Dictionary with ticket details or None if request fails
     """
-    if not all([ZENDESK_DOMAIN, ZENDESK_EMAIL, ZENDESK_API_TOKEN]):
+    config = get_zendesk_config()
+    
+    if not all([config['domain'], config['email'], config['api_token']]):
         return None
     
-    url = f"https://{ZENDESK_DOMAIN}/api/v2/tickets/{ticket_id}.json"
-    auth = HTTPBasicAuth(f"{ZENDESK_EMAIL}/token", ZENDESK_API_TOKEN)
+    url = f"https://{config['domain']}/api/v2/tickets/{ticket_id}.json"
+    auth = HTTPBasicAuth(f"{config['email']}/token", config['api_token'])
     
     headers = {
         "Content-Type": "application/json"
@@ -100,4 +109,5 @@ def get_ticket_details(ticket_id: int) -> Optional[Dict[str, Any]]:
         
     except requests.exceptions.RequestException as e:
         print(f"Error fetching ticket details: {e}")
+        return None
         return None
