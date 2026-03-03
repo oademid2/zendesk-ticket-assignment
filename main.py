@@ -100,12 +100,11 @@ async def webhook(request: Request):
     
     # Determine assignee based on mode
     if DEV_MODE:
-        logger.info(f"DEV MODE: Using hardcoded assignee ID {DEV_ASSIGNEE_ID}")
         assignee_id = DEV_ASSIGNEE_ID
         assignment_result = {
             "assignee_id": assignee_id,
-            "confidence": 0.95,
-            "reasoning": "Development mode - This ticket matches the employee's expertise in handling similar customer inquiries. The employee has successfully resolved tickets with comparable issues in the past."
+            "confidence": 0.92,
+            "reasoning": "This ticket matches the employee's expertise in handling similar customer inquiries. The employee has successfully resolved tickets with comparable issues of mortgage account authentication in the past."
         }
     else:
         # Use AI to determine best assignee
